@@ -35,3 +35,35 @@ p {
     font-size: 18px;      /* Slightly larger font for readability */
     line-height: 1.6;      /* More space between lines for easier reading */
 }
+
+/* Profile image styles */
+.card img {
+    width: 90px;                /* Smaller image size for better fit */
+    border-radius: 50%;         /* Circular image */
+    margin-bottom: 18px;        /* Space below image */
+    display: block;             /* Block to center with margin */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* List styles for favorite websites */
+.card ul {
+    list-style: none;           /* Remove bullet points */
+    padding: 0;                 /* Remove default padding */
+    margin-top: 18px;           /* Add space above the list */
+}
+
+.card ul li {
+    margin-bottom: 10px;        /* Space between list items */
+}
+
+.card ul li a {
+    text-decoration: none;      /* Remove underline from links */
+    color: #003366;             /* Match heading color */
+    font-size: 17px;            /* Slightly larger font for links */
+    transition: color 0.2s;
+}
+
+.card ul li a:hover {
+    color: #0055aa;             /* Slightly lighter blue on hover */
+}
